@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Navbar Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+            <img src="images/Group 11.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="#">MAIN</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">PROJECTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">CERTIFICATIONS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">CONTACTS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="hero-section container-fluid d-flex">
+        <div class="text-content">
+            <h1>PROJECT</h1>
+            <h2>Lorum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus dictum nulla.</p>
+        </div>
+        <div class="image-content">
+            <img src="images/Rectangle 6.png" alt="Project Image">
+            <a href="#" class="view-project-btn">
+                View Project <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+   
+    <div class="about-section">
+        <div class="about-images">
+            <img src="images/Rectangle 8.png" alt="Image 1">
+            <img src="images/Rectangle 9.png" alt="Image 2">
+            <img src="images/Rectangle 10.png" alt="Image 3">
+        </div>
+        <div class="about-text">
+            <h2>About</h2>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+            <a href="#" class="read-more">READ MORE →</a>
+        </div>
+    </div>
+    <div class="mission-section">
+        <h2>Main Focus/Mission Statement</h2>
+        <div class="mission-content">
+            <div class="mission-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</p>
+            </div>
+            <div class="mission-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat, magna mauris porttitor tortor; a auctor est felis ut nisi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="projects-container">
+        <h2>Our Projects</h2>
+        <div class="project-grid">
+            <div class="project-item large">
+                <img src="images/Rectangle 17.png" alt="Sample Project">
+                <div class="project-text">
+                    <h3>Sample Project</h3>
+                    <a href="#" class="view-more-btn">VIEW MORE →</a>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/image 15.png" alt="Project Image">
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="project-item">
+                <img src="images/image 16.png" alt="Project Image">
+            </div>
+            <div class="project-item">
+                <img src="images/image 17.png" alt="Project Image">
+            </div>
+            <div class="project-item">
+                <img src="images/image 18.png" alt="Project Image">
+            </div>
+        </div>
+        <div class="projects-footer">
+            <a href="#" class="all-projects-btn">ALL PROJECTS →</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row contact-section">
+            <!-- Left Side - Form -->
+            <div class="col-md-6 contact-form">
+                <h2 class="contact-title">Contact Us</h2>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Phone Number*</label>
+                        <input type="text" class="form-control" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email*</label>
+                        <input type="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Interested In</label>
+                        <select class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Service 1</option>
+                            <option>Service 2</option>
+                            <option>Service 3</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Message*</label>
+                        <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100">SEND EMAIL →</button>
+                </form>
+            </div>
+
+            <!-- Right Side - Image -->
+            <div class="col-md-6 contact-image-container">
+                <img src="images/image 12.png" alt="Contact Us" class="img-fluid contact-image">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+     <!-- Footer Section -->
+    <footer class="footer mt-auto py-4">
+        <div class="container">
+            <div class="row text-md-start text-center">  
+                <!-- Left Side - Logo -->
+                <div class="col-md-3 footer-logo">
+                    <img src="images/Group 11.png" alt="Logo" class="img-fluid">
+                </div>
+
+                <!-- Middle Section - Information -->
+                <div class="col-md-3 footer-section">
+                    <h5>Information</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Main</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Certifications</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <!-- Middle Section - Contacts -->
+                <div class="col-md-3 footer-section">
+                    <h5>Contacts</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> 📌1234 Sample Street, Austin, Texas 78704</p>
+                    <p><i class="fas fa-phone"></i> 📞 512-333-2222</p>
+                    <p><i class="fas fa-envelope"></i> 🔵sampleemail@gmail.com</p>
+                </div>
+
+                <!-- Right Side - Social Media -->
+                <div class="col-md-3 footer-section">
+                    <h5>Social Media</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"> </i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center mt-3">
+            <p>© 2024 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
